@@ -212,10 +212,10 @@ const getAccessToken = async(context) => {
             'Cookie': createBaseCookieHeader(context['postCookies'])
         };
         request.get({ url: url, headers: headers}, (err, res, body) => {
-            const accessToken = matchValue('AccessToken', body);
-            const apiGatewayUri = matchValue('ApiGatewayUri', body);
-            const apiGatewayVersion = matchValue('ApiGatewayVersion', body);
-            const accessTokenExpiry = matchValue('AccessTokenExpiry', body);
+            const AccessToken = matchValue('AccessToken', body);
+            const ApiGatewayUri = matchValue('ApiGatewayUri', body);
+            const ApiGatewayVersion = matchValue('ApiGatewayVersion', body);
+            const AccessTokenExpiry = matchValue('AccessTokenExpiry', body);
             reslove({AccessToken, ApiGatewayUri, ApiGatewayVersion});
         });
     });
