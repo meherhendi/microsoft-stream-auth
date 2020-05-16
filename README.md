@@ -29,10 +29,9 @@ Then you will get below object:
 
 ```json
 {
-    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dC....",
-    "apiGatewayUri": "https://aaea-1.api.microsoftstream.com/api/",
-    "apiGatewayVersion": "1.3-private",
-    "accessTokenExpiry": "2019-12-09T08:19:25.6166735+00:00"
+    "AccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dC....",
+    "ApiGatewayUri": "https://aaea-1.api.microsoftstream.com/api/",
+    "ApiGatewayVersion": "1.3-private",
 }
 ```
 
