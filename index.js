@@ -216,7 +216,7 @@ const getAccessToken = async(context) => {
             const apiGatewayUri = matchValue('ApiGatewayUri', body);
             const apiGatewayVersion = matchValue('ApiGatewayVersion', body);
             const accessTokenExpiry = matchValue('AccessTokenExpiry', body);
-            reslove({accessToken, apiGatewayUri, apiGatewayVersion, accessTokenExpiry});
+            reslove({AccessToken, ApiGatewayUri, ApiGatewayVersion});
         });
     });
 }
